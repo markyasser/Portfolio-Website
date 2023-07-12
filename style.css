@@ -335,24 +335,27 @@ a {
 }
   
   .technologies li:nth-child(3) {
+    background-image: url('https://devicon-website.vercel.app/api/express/original-wordmark.svg');
+  }
+  .technologies li:nth-child(4) {
     background-image: url('https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original-wordmark.svg');
   }
   
-  .technologies li:nth-child(4) {
+  .technologies li:nth-child(5) {
     background-image: url('https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg');
   }
   
-  .technologies li:nth-child(5) {
+  .technologies li:nth-child(6) {
     background-image: url('https://cdn.jsdelivr.net/gh/devicons/devicon/icons/opengl/opengl-original.svg');
   }
-  .technologies li:nth-child(6) {
+  .technologies li:nth-child(7) {
     background-image: url('https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg');
   }
-  .technologies li:nth-child(7) {
+  .technologies li:nth-child(8) {
     background-image: url('https://cdn.jsdelivr.net/gh/devicons/devicon/icons/opencv/opencv-original-wordmark.svg');
   }
   
-  .technologies li:nth-child(8) {
+  .technologies li:nth-child(9) {
     background-image: url('https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg');
   }
   .technologies li:last-child {
