@@ -25,6 +25,10 @@ header {
   text-transform: uppercase;
   font-weight: 700;
   font-size: 1.8em;
+  flex: 0 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .navigation a {
@@ -348,15 +352,26 @@ a {
 .technologies li:nth-child(7) {
   background-image: url("https://cdn.jsdelivr.net/gh/devicons/devicon/icons/opengl/opengl-original.svg");
 }
-
 .technologies li:nth-child(8) {
-  background-image: url("https://devicon-website.vercel.app/api/docker/original.svg");
-}
-.technologies li:nth-child(9) {
   background-image: url("https://devicon-website.vercel.app/api/pytorch/original.svg");
 }
-.technologies li:nth-child(10) {
+.technologies li:nth-child(9) {
   background-image: url("https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg");
+}
+.technologies li:nth-child(10) {
+  background-image: url("https://devicon-website.vercel.app/api/docker/original.svg");
+}
+.technologies li:nth-child(11) {
+  background-image: url("https://devicon-website.vercel.app/api/ansible/plain.svg");
+}
+.technologies li:nth-child(12) {
+  background-image: url("https://devicon-website.vercel.app/api/jenkins/original.svg");
+}
+.technologies li:nth-child(13) {
+  background-image: url("https://devicon-website.vercel.app/api/amazonwebservices/original-wordmark.svg");
+}
+.technologies li:nth-child(14) {
+  background-image: url("https://devicon-website.vercel.app/api/azure/original.svg");
 }
 .technologies li:last-child {
   margin-right: 0;
@@ -399,4 +414,12 @@ a {
   .main-content h3 {
     font-size: 1.4em;
   }
+}
+.logo img {
+  max-width: 100px; /* Adjust the size as needed */
+  max-height: 100px;
+}
+
+.info {
+  flex: 1;
 }

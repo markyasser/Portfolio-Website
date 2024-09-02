@@ -16,6 +16,7 @@
     <header>
       <a href="#" class="logo">Mark</a>
       <nav class="navigation">
+        <a href="#work">Professional Experience</a>
         <a href="#services">Skills</a>
         <a href="#languages">Languages and Technologies</a>
         <a href="#projects">Projects</a>
@@ -26,12 +27,12 @@
     <section class="main">
       <div>
         <h2>
-          Hello, I'm Mark <br />
+          Hello, I'm Mark Yasser<br />
           <span>Software Engineer</span>
         </h2>
         <h3>
-          I’m a computer engineering student<br />
-          Cairo University - Faculty of Engineering
+          I'm a Computer Engineer<br />
+          Bachelors Degree, Faculty of Engineering - Cairo University
         </h3>
         <a href="#projects" class="main-btn">View my work</a>
         <div class="social-icons">
@@ -47,6 +48,82 @@
           <a href="https://www.linkedin.com/in/mark-yasser-2525711b6/"
             ><i class="fab fa-linkedin"></i
           ></a>
+        </div>
+      </div>
+    </section>
+    <section class="work" id="work">
+      <h2 class="title">Professional Experience</h2>
+      <div class="content">
+        <!-- Gameball -->
+        <div class="card">
+          <div class="logo">
+            <img src="images/work/gameball.jpeg" alt="Gameball Logo" />
+          </div>
+          <div class="info">
+            <h3>Gameball</h3>
+            <h4>Backend Intern</h4>
+            <p>Cairo, Egypt | July 2024 - Sept 2024</p>
+            <br />
+            <ul>
+              <li>
+                Contributed to system improvements at Gameball using ASP.NET
+                Core Web API, PostgreSQL, and Azure DevOps for project
+                management and task planning.
+              </li>
+              <li>
+                Focused on caching optimization, including adding an in-memory
+                caching layer to enhance performance.
+              </li>
+              <li>
+                Migrated image files to webp format and updated existing files
+                on AWS S3.
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Bita Misr -->
+        <div class="card">
+          <div class="logo">
+            <img src="images/work/bita-misr.jpg" alt="Bita Misr Logo" />
+          </div>
+          <div class="info">
+            <h3>Bita Misr</h3>
+            <h4>Software Engineer</h4>
+            <p>Cairo, Egypt | Aug 2023 - May 2024</p>
+            <br />
+            <ul>
+              <li>
+                Contributed to a Hospital Management System and Accounting
+                System using ASP.NET Core MVC and Microsoft SQL Server, later
+                migrated to MySQL Database.
+              </li>
+              <li>
+                Containerized each application and database using Docker and
+                used Ansible for automated deployment and configuration on the
+                production server.
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Neon -->
+        <div class="card">
+          <div class="logo">
+            <img src="images/work/neon.jpeg" alt="Bita Misr Logo" />
+          </div>
+          <div class="info">
+            <h3>Neon</h3>
+            <h4>Flutter Freelancer</h4>
+            <p>Cairo, Egypt | Jan 2022 - May 2023</p>
+            <br />
+            <ul>
+              <li>
+                Made a full e-learning cross-platform mobile application using
+                flutter, dealing with REST API using bloc state management.
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     </section>
@@ -68,7 +145,7 @@
 
         <div class="card">
           <div class="icon">
-            <i class="fas fa-cogs"></i>
+            <i class="fas fa-robot"></i>
           </div>
           <div class="info">
             <h3>Machine learning</h3>
@@ -91,7 +168,7 @@
 
         <div class="card">
           <div class="icon">
-            <i class="fas fa-network-wired"></i>
+            <i class="fas fa-laptop-code"></i>
           </div>
           <div class="info">
             <h3>Problem Solving</h3>
@@ -128,9 +205,13 @@
           <li>MongoDB</li>
           <li>MySQL</li>
           <li>OpenGL</li>
-          <li>Docker</li>
           <li>PyTorch</li>
           <li>Linux</li>
+          <li>Docker</li>
+          <li>Ansible</li>
+          <li>Jenkins</li>
+          <li>AWS</li>
+          <li>Azure</li>
         </ul>
       </div>
     </section>
@@ -145,7 +226,7 @@
             <strong class="project-title">
               <span style="font-size: 30px">شَكْلِّي </span>
               <a
-                href="https://github.com/markyasser/Music-Player"
+                href="https://github.com/markyasser/Arabic-Diacritic-Classifier"
                 class="more-details"
                 >View Project</a
               >
@@ -154,6 +235,28 @@
               "شَكْلِّي" is an arabic diacritic classifier that restores
               diacritics for raw arabic text using deep learning and python
               (pytorch).
+            </p>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="project-image">
+            <img src="images/music.png" alt="" />
+          </div>
+          <div class="project-info">
+            <strong class="project-title">
+              <span>Music Player</span>
+              <a
+                href="https://github.com/markyasser/Music-Player"
+                class="more-details"
+                >View Project</a
+              >
+            </strong>
+            <p class="project-category">
+              A full stack music streaming application with flutter web as
+              front-end and NodeJs,ExpressJs as backend (RESTfull API) and
+              mongodb as database, Stored music and image files on firebase
+              firestore. Unit Testing the backend using chai and stubs with
+              sinon and Documentation with Swagger.
             </p>
           </div>
         </div>
